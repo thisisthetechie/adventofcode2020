@@ -6,7 +6,7 @@ foreach ( $passone in $values ) {
     foreach ( $passtwo in $values ) {
         if ( $passone -gt 0 -and $( [int]$passone + [int]$passtwo ) -eq 2020 ) {
             write-host "$passone + $passtwo = $( [int]$passone + [int]$passtwo )";
-            write-host "$passone x $passtwo = $( [int]$passone * [int]$passtwo )"
+            write-host "$passone x $passtwo = $( [int]$passone * [int]$passtwo )";
             exit;
         }
     }
